@@ -2,11 +2,43 @@
   font: 16px / 1 sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
 html {
   height: 100%;
 }
 
 body {
-  margin: 0;
+  margin: 0 2rem;
   min-height: 100%;
+}
+
+h1 {
+  color: rgb(189, 232, 124);
+}
+h2 {
+  color: rgb(95, 107, 122);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  max-width: 52rem;
+  padding: 0 2rem;
+  // border: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+#CatPhoto {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+#CatSection {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
 }

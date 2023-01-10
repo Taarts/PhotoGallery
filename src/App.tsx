@@ -1,6 +1,5 @@
 import React from 'react'
 import { CategoryList } from './CategoryList'
-// import { Pandas } from './pages/pandas'
 import gallery from './gallery.json'
 import { Routes, Route, Link } from 'react-router-dom'
 import { PhotoList } from './PhotoList'
@@ -20,7 +19,7 @@ export function App() {
         </Link>
         <h2>A photo gallery</h2>
       </header>
-      <main className="container">
+      <main>
         <Routes>
           <Route path="/" element={<CategoryList title={title} />}></Route>
           <Route path="/:elements" element={<PhotoList />} />
@@ -28,7 +27,9 @@ export function App() {
           <Route path="*" element={<p>404: Not Found</p>}></Route>
         </Routes>
       </main>
-      <footer>by Amheiser</footer>
+      <footer>
+        <div id="box">by Amheiser</div>
+      </footer>
     </div>
   )
 }

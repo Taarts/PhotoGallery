@@ -1,10 +1,35 @@
 :root {
   font: 16px / 1 sans-serif;
+  font-family: 'Rubik', sans-serif;
+  --bkgd-color-main: #d1e0d8;
+  --bkgd-color-secondary: #f0e5f4;
+  --bkgd-color-tertiary: #f4f2f4a5;
+  --font-color: rgb(43, 69, 55);
+  --card-outline-color: #818c8958;
+  --h1-color: rgb(142, 176, 91);
 }
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
+nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  color: rgb(142, 176, 91);
+  margin-inline: 0.2rem;
+  background-color: var(--bkgd-color-secondary);
+}
+
+nav > a {
+  color: var(--h1-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0 0.5rem 0 0;
+  border-bottom: 1px solid transparent;
+}
+
 html {
   height: 100%;
 }
@@ -12,33 +37,103 @@ html {
 body {
   margin: 0 2rem;
   min-height: 100%;
+  background-color: var(--bkgd-color-main);
 }
 
 h1 {
-  color: rgb(189, 232, 124);
+  font-size: 3rem;
+  color: rgb(142, 176, 91);
 }
 h2 {
   color: rgb(95, 107, 122);
 }
+
+h3 {
+  color: var(--font-color);
+}
+h3 > a {
+  color: rgb(142, 176, 91);
+}
+
+p {
+  color: rgba(56, 56, 56, 0.788);
+  line-height: 1.2rem;
+  z-index: 1;
+}
+
 .wrapper {
   display: flex;
-  flex-direction: column;
-  margin: 2rem auto;
+  flex-flow: row wrap;
+  height: 100%;
+  width: auto;
+  flex-flow: column;
+  margin: auto;
   max-width: 52rem;
-  padding: 0 2rem;
+  padding: 2rem;
+  background-color: var(--bkgd-color-secondary);
   // border: 1px solid red;
 }
 
 img {
   max-width: 100%;
 }
-#CatPhoto {
-  width: 100%;
-  padding: 1rem 0;
+
+a > div {
+  color: rgb(43, 69, 55);
+  padding: 0.5rem 0;
+  line-height: 1.2rem;
+}
+section > div {
+  display: flex;
 }
 
-#CatSection {
+section {
+  height: 80vh;
+  position: relative;
+}
+
+.cardOne {
   display: flex;
-  flex-direction: column;
-  padding: 1rem 2rem;
+  height: auto;
+  width: auto;
+  margin-right: 0.7rem;
+  padding: 0.2rem;
+  border: 1.5px solid var(--card-outline-color);
+  border-radius: 0.2rem;
+  background-color: var(--bkgd-color-tertiary);
+}
+
+.cardImage {
+  background-color: white;
+  width: 30vmin;
+  position: relative;
+  height: 13.5rem;
+  border-radius: 0.2rem;
+  // margin-bottom: 0.5rem;
+}
+
+.text-placement {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 1rem;
+}
+
+#detailImage {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  align-content: center;
+  width: 75%;
+  height: 75%;
+  margin-top: auto;
+  object-fit: cover;
+  border-radius: 0.2rem;
+}
+
+footer {
+  height: 10vh;
+  margin-top: auto;
+  padding: 6rem 0;
+  text-align: center;
+  background-color: var(--bkgd-color-secondary);
 }

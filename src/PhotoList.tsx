@@ -6,8 +6,9 @@ import { CategoryList } from './CategoryList'
 
 export function PhotoList() {
   const params = useParams<{
-    elements: 'pandas' | 'miniatures'
+    elements: 'physical art' | 'pottery'
     photoIndex: string
+    para: string
   }>()
   console.log(params)
 
@@ -17,14 +18,20 @@ export function PhotoList() {
         <Link to="/">Home</Link>
       </nav>
       <section>
-        <h2>{gallery[params.elements!].title}</h2>
+        <h3>{gallery[params.elements!].title}</h3>
         <div>
           {gallery[params.elements!].photos.map((photo, index) => {
             return (
-              <Link to={`./${index}`} key={index}>
-                <img src={photo.imageURL} width="100%" />
-                <div>{photo.title}</div>
-              </Link>
+              <div className="cardOne" key={index}>
+                <Link to={`./${index}`} key={index}>
+                  <img
+                    className="cardImage"
+                    src={photo.imageURL}
+                    width="100%"
+                  />
+                  <div className="text-placement">{photo.title}</div>
+                </Link>
+              </div>
             )
           })}
         </div>

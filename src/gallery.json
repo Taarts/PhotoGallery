@@ -1,48 +1,49 @@
 {
-  "pandas": {
-    "title": "Panda Bears",
-    "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+  "physical art": {
+    "title": "Physical art & architecture of the last 100 years",
+    "description": "Art feeds the soul, and invites us all to feast.",
     "photos": [
       {
-        "title": "Panda Waving",
-        "imageURL": "https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/photo-gallery/baby_panda.jpg",
-        "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        "title": "Two Human Hands",
+        "imageURL": "https://images.unsplash.com/photo-1558522195-e1201b090344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/s/photos/modern-art",
+        "para": "Pen ink and watercolor render of a detail from the Sistine Chapel, of the hands of god and Adam."
       },
       {
-        "title": "Großer Panda im Ocean Park, Hongkong",
-        "imageURL": "https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/photo-gallery/grosser_panda.jpg",
-        "sourceURL": "https://en.wikipedia.org/wiki/Giant_panda"
+        "title": "Architecture, Sydney, Australia",
+        "imageURL": "https://images.unsplash.com/photo-1630809327488-cba7abac4ec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/s/photos/modern-architecture",
+        "para": "Victorian sandstone buildings juxtaposed with modern skyscrapers."
       },
       {
-        "title": "Wild pandas get a boost; the iconic species has been upgraded from 'endangered' to 'vulnerable.'",
-        "imageURL": "https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/photo-gallery/tree_panda.png",
-        "sourceURL": "https://www.worldwildlife.org/magazine/issues/spring-2017/articles/wild-pandas-get-a-boost--2"
-      },
-      {
-        "title": "Sacred Warrior, by Adrian Smith",
-        "imageURL": "https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/photo-gallery/ising_sun.png",
-        "sourceURL": "https://www.artstation.com/adrian-smith/albums/1298277"
+        "title": "The Kiss",
+        "imageURL": "https://images.unsplash.com/photo-1638972683884-a19ecf183d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/s/photos/museo-di-roma---palazzo-braschi",
+        "para": "Subject of artists for millennia."
       }
     ]
   },
-  "miniatures": {
-    "title": "Miniature Painting",
-    "description": "I enjoy painting miniatures from board games. I've been painting since early 2018, here's some of my work.",
+  "pottery": {
+    "title": "Pottery",
+    "description": "Pottery is the art of making ceramic material into pots or potterywares using clay. Major types of potterywares include earthenware, stoneware and porcelain. The place where such wares are made by a potter is also called a pottery (plural \"potteries\").",
     "photos": [
       {
-        "title": "City of Kings",
-        "imageURL": "https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/photo-gallery/city_of_kings.jpg",
-        "sourceURL": "https://www.instagram.com/p/Btv-0uYH8Xc"
+        "title": "Beautiful Japanese vessel",
+        "imageURL": "https://images.unsplash.com/photo-1622258699373-89e5c8437b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/s/photos/pottery",
+        "para": "A beautiful Japanese vessel, made of clay and fired in a kiln."
       },
       {
-        "title": "Blood Rage, Ram Clan",
-        "imageURL": "https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/photo-gallery/ram_clan.jpg",
-        "sourceURL": "https://www.instagram.com/p/BjRKLqYh4gK"
+        "title": "Grey and white",
+        "imageURL": "https://images.unsplash.com/photo-1523027737707-96c0e1fd54e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/s/photos/pottery",
+        "para": "Raku fired pottery jugs, in a grey and white theme."
       },
       {
-        "title": "Cormac the Druid, work in progress",
-        "imageURL": "https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/photo-gallery/cormac.jpg",
-        "sourceURL": "https://www.instagram.com/p/BnW2QrWDaky"
+        "title": "Stoneware bowl",
+        "imageURL": "https://images.unsplash.com/photo-1621453571889-0b228e998080?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+        "sourceURL": "https://unsplash.com/s/photos/pottery",
+        "para": "Pottery or other ceramics fired at a relatively high temperature. A modern technical definition is a vitreous or semi-vitreous ceramic made primarily from stoneware clay or non-refractory fire clay. This example uses earthy copper and green tones as contrast."
       }
     ]
   }
